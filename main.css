@@ -1,0 +1,19 @@
+html {
+    padding: 20px;
+    margin: 10px 10px 10px 0;
+}
+
+main {
+    Background-Color: #649549
+}
+
+.header ul li {
+    flex-direction: row;
+}
+
+.paragraph h1 {
+    color: #6CB840 /*(light green)*/;
+}
+.paragraph span {
+    color: #EAAB1B /*(light orange) */;
+}
