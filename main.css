@@ -1,14 +1,32 @@
+* {
+    --color: #6CB840 /*(light green)*/;
+    --Background-Color: #649549;/*green*/
+    --hot-deals-section: #c9ecb5;/*yellow*/
+}
 html {
     padding: 20px;
     margin: 10px 10px 10px 0;
+    font-family: poppins;
 }
 
-main {
-    Background-Color: #649549
+body {
+    background-color: var(--hot-deals-section);
+    font-family: poppins;
 }
 
-.header ul li {
-    flex-direction: row;
+.header {
+    box-sizing: border-box;
+}
+#first {
+    float: left;
+}
+#seconf {
+    float: right;
+}
+
+.paragraph {
+    box-sizing: border-box;
+    width: 300px;
 }
 
 .paragraph h1 {
