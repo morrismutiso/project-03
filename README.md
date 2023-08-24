@@ -45,11 +45,11 @@ code .
 ### Screens
 My presentation appears as follows:
 
-| ![screenshot1](<1.png>) |
-| ![screenshot2](<2.png>) | 
-| ![screenshot3](<3.png>) | 
-| ![screenshot4](<4.png>) | 
-| ![screenshot5](<5.png>) |
+![screenshot1](1.png) 
+| ![screenshot2](2.png) | 
+| ![screenshot3](3.png) | 
+| ![screenshot4](4.png) | 
+| ![screenshot5](5.png) |
 
 ## Author
 [morrismutiso](https://github.com/morrismutiso)
