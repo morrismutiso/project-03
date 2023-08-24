@@ -43,8 +43,13 @@ code .
 4 Run on the browser by opening it through live server.
 
 ### Screens
-| Screen 1                | Screen 2                | Screen 3           | screenshot4 | screenshot5 
-| ![screenshot1](<1.png>) | ![screenshot2](<2.png>) | ![screenshot3](<3.png>) | ![screenshot4](4.png) | ![screenshot5](5.png)
+My presentation appears as follows:
+
+| ![screenshot1](<1.png>) |
+| ![screenshot2](<2.png>) | 
+| ![screenshot3](<3.png>) | 
+| ![screenshot4](<4.png>) | 
+| ![screenshot5](<5.png>) |
 
 ## Author
 [morrismutiso](https://github.com/morrismutiso)
