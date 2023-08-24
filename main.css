@@ -1,16 +1,18 @@
 * {
-    --color: #6CB840 /*(light green)*/;
-    --Background-Color: #649549;/*green*/
-    --hot-deals-section: #c9ecb5;/*yellow*/
+    --text1-color: #6CB840 ; /*(light green)*/
+    --text2-color: #eaab1b; /*light orange*/
+    --Background-Color: #649549; /*green*/
+    --hot-deals-section-bg: #c9ecb5; /*yellow*/
+    --buttons: #6cb840; /*for buttons*/
+    --contacts-bg-color: #ffd77c; /*for contacts*/
 }
-html {
+.html {
     padding: 20px;
     margin: 10px 10px 10px 0;
     font-family: poppins;
 }
 
 body {
-    background-color: var(--hot-deals-section);
     font-family: poppins;
 }
 
@@ -18,15 +20,35 @@ body {
     box-sizing: border-box;
 }
 #first {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
     float: left;
+    margin: 5px auto 5px auto;
 }
-#seconf {
+#first a {
+    text-decoration: none;
+    justify-content: space-evenly;
+    color: black;
+    padding: 15px;
+}
+#second a {
+    text-decoration: none;
+    justify-content: space-evenly;
+    color: black;
+    padding: 15px;
+}
+#second {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
     float: right;
 }
 
 .paragraph {
     box-sizing: border-box;
     width: 300px;
+    margin-left: 100px;
 }
 
 .paragraph h1 {
@@ -34,4 +56,45 @@ body {
 }
 .paragraph span {
     color: #EAAB1B /*(light orange) */;
+}
+button {
+    padding: 10px;
+    background-color: var(--buttons);
+    border-radius: 25px;
+    border: none;
+}
+button a {
+    font-size: 18px;
+    text-decoration: none;
+    color: white;
+}
+
+.all {
+    display: flex;
+    flex-direction: row;
+    background-color: #fff;
+    margin-top: 100px;
+    margin-left: 50px;
+    align-items: center;
+    height: 80%;
+}
+
+.eat img {
+    width: 600px;
+    width: 600px;
+}
+
+.two {
+    box-sizing: border-box;
+    width: 300px;
+    margin-right: 10px;
+    float: right;
+}
+
+.two h1 {
+    color: var(--text2-color);
+}
+
+.two p {
+    font-size: 18px;
 }
